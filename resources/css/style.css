@@ -2,10 +2,27 @@
   margin: 0 auto;
 }
 
+.mdl-grid--mylayout {
+  margin: 50px 0;
+}
+
 .mdl-card--full-width {
   width: 100%;
 }
+.mdl-card--content-width {
+  width: 90%;
+}
+@media (min-width: 769px) {
+  .mdl-card--content-width {
+    width: 100%;
+  }
+}
 .mdl-card-mylayout {
   width: none;
-  padding: 80px 56px;
+  padding: 40px 0;
+}
+@media (min-width: 769px) {
+  .mdl-card-mylayout {
+    padding: 80px 56px;
+  }
 }

@@ -2,14 +2,30 @@
 	margin: 0 auto;
 }
 
+.mdl-grid--mylayout {
+	margin: 50px 0;
+}
+
 .mdl-card {
 	&--full-width {
 		width: 100%;
 	}
 
+	&--content-width {
+		width: 90%;
+		@media (min-width: 769px) {
+			width: 100%;
+		}
+	}
+
 	&-mylayout {
 		width: none;
-		padding: 80px 56px;
+		padding: 40px 0;
+
+		@media (min-width: 769px) {
+			padding: 80px 56px;
+		}
+		
 	}
 	
 }
