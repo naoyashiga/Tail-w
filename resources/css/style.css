@@ -27,9 +27,14 @@
   }
 }
 
-.socialArea-twitter-link, .socialArea-facebook-link {
+.socialArea-twitter-link, .socialArea-facebook-link, .author-link {
   display: block;
   width: 100%;
   padding: 10px 0;
   border-radius: 0%;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.author-link {
+  text-transform: lowercase;
 }
